@@ -1,0 +1,13 @@
+prefix=/Users/shalabh/projects/agents/TextToSQL/venv
+exec_prefix=/Users/shalabh/projects/agents/TextToSQL/venv
+libdir=/Users/shalabh/projects/agents/TextToSQL/venv/lib
+sharedlibdir=/Users/shalabh/projects/agents/TextToSQL/venv/lib
+includedir=/Users/shalabh/projects/agents/TextToSQL/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
